@@ -5,12 +5,13 @@ package src;
 	public static void main(String[] args) {
 
 		
-		boolean bool = true;
+		for(int i = 0; 1; i++) {
 
-		//bool++;
+		      System.out.println("Hello"); 
 
-		System.out.println(bool);
-		//double db1 = i/(double)j;
+		      break; 
+
+		      } 
 
 
 
