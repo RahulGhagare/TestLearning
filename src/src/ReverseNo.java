@@ -8,21 +8,26 @@ public class ReverseNo {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
+
+		//while(true) {
+		//System.out.println("");
 		System.out.println("Enter your number");
+
 		int m =sc.nextInt();
-		
+
 		//int m = 1234;
 		int temp = 0;
 		for(int i=0;m!=0;i++) 
 		{
 			int l = m % 10;
-			 temp = l;
+			temp = l;
 			m = m/10;
-			
+
 			System.out.print(temp);
-			
+			//
+			//}
 		}
-		
+
 	}
 
 }
