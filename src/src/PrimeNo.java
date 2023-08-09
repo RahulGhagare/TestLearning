@@ -5,40 +5,52 @@ import java.util.Scanner;
 public class PrimeNo {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+////		Scanner scan = new Scanner(System.in);
+//		
+//		System.out.println("Enter You number");
+//		int n = scan.nextInt();
+//		int n = 9;
+//		int count = 0;
+//		
+//		
+//		
+//		if(n<=1) {
+//			
+//			System.out.println("It is not a prime no");
+//			
+//		
+//		}
+//	for(int i = 2; i<20;i++ ) {
+//		
+//		if(n%i==0) {
+//			
+//		count++;
+//		break;
+//		
+//		}
+//		
+//	}
+//	 if(count > 1) {
+//		
+//		System.out.println("Not a prime no" +count);
+//		
+//	}
+//	else {
+//		System.out.println("It is a prime no");
+//		
+//	}
 		
-		System.out.println("Enter You number");
-		int n = scan.nextInt();
-		//int n = 17;
-		int count = 0;
+		int i = 3;
 		
-		
-		
-		if(n<=1) {
+		if(i/1 ==i && i/2==1 && i%2!=0) {
 			
-			System.out.println("It is not a prime no");
+			System.out.println("Prime No");
+		}else {
 			
-		
+			System.out.println("Not a prime no");
 		}
-	for(int i = 2; i<n;i++ ) {
 		
-		if(n%i==0) {
-			
-		count++;
-		break;
 		
-		}
-		
-	}
-	 if(count > 1) {
-		
-		System.out.println("Not a prime no" +count);
-		
-	}
-	else {
-		System.out.println("It is a prime no");
-		
-	}
 	}
 		
 		
