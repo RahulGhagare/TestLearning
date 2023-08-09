@@ -12,5 +12,15 @@ public class Human {
 }
 class Laptop{
 	
-//	System.out.println("Laptop Class");
+	Laptop hp = new Laptop();
+	
+}
+class SportMan{
+	
+	
+}
+
+class TestCase{
+	
+	
 }
